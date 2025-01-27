@@ -1,6 +1,7 @@
 ---
 title: Welcome to CatMuse
 publish: true
+comments: false
 ---
 
 ## 20241021
@@ -15,9 +16,7 @@ publish: true
 - Mermaid Diagrams
 - …
 
-这里是我的地址：[Welcome to KaiBrain](https://www.kaibrain.com/) ，目前我会将我的首页先当作一个日记本来用，写一些碎碎念念的唠叨。⚠️ 其中有很多文件夹是空的，或是 404，是因为我还没有创建内容。现在吧，先扎扎篱笆，翻翻土。👨‍🌾
-
-![[数字花园IMG.png]]
+这里是我的地址：[Welcome to CatMuse](https://www.catmuse.me/) ，目前我会将我的首页先当作一个日记本来用，写一些碎碎念念的唠叨。⚠️ 其中有很多文件夹是空的，或是 404，是因为我还没有创建内容。现在吧，先扎扎篱笆，翻翻土。👨‍🌾
 
 ---
 
