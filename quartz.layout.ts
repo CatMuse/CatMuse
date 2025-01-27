@@ -23,7 +23,7 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/KairosBrain/CatMuse",
+      GitHub: "https://github.com/CatMuse/CatMuse",
       RSS: "https://catmuse.me/index.xml",
     },
   }),

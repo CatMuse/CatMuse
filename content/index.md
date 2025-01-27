@@ -1,7 +1,7 @@
 ---
 title: Welcome to CatMuse
 publish: true
-comments: false
+comments: true
 ---
 
 ## 20241021
