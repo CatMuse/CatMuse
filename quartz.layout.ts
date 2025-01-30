@@ -19,6 +19,9 @@ export const sharedPageComponents: SharedLayout = {
         categoryId: 'DIC_kwDONCjo3M4CjjAv',
         mapping: 'pathname',
         inputPosition: 'top',
+        themeUrl: "https://catmuse.me/static/giscus", // corresponds to quartz/static/giscus/
+        lightTheme: "light-theme", // corresponds to light-theme.css in quartz/static/giscus/
+        darkTheme: "dark-theme", // corresponds to dark-theme.css quartz/static/giscus/
       }
     }),
   ],
