@@ -1,19 +1,19 @@
-# Flexoki
+# Everforest
 
-[Flexoki](https://twitter.com/kepano)
+[Everforest](#)
 
 ## Usage
 
 ```bash
-just theme Flexoki
+just theme Everforest
 ```
 
 ## Preview
 
 ### Light
 
-![Preview of Flexoki Light](preview-light.png)
+![Preview of Everforest Light](preview-light.png)
 
 ### Dark
 
-![Preview of Flexoki Dark](preview-dark.png)
+![Preview of Everforest Dark](preview-dark.png)
