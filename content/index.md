@@ -1,15 +1,9 @@
 ---
-title: Welcome CatMuse
-tags:
-  - evergreen
-drafts: false
+title: Welcome to Quartz
 ---
-<img src="./banner.svg" width="100%" height="175">
+
+<img src="./banner.svg" width="100%" height="160">
 
 ## Welcome!
 
-我想分享一些文字，可我又不会写。每次都扭扭捏捏写了删，也么一直在规划一直在规划。我想先真诚的写一些碎碎念念片段开始，不过度的包装成一个华丽的大佬，我就是我，一个稀里糊涂画画的学渣。
-
-AI 可以帮我，帮我把文字修复的没有瑕疵，可我不喜欢。不过啊，因为好奇心，我还是会探索些 AI 相关的内容。
-
-今天就到这儿吧，反正也没人看。
+Quartz 是一款快速、功能齐全的静态网站生成器，能将 Markdown 内容转化为功能完备的网站。成千上万的学生、开发者和教师正利用石英发布个人笔记、网站和数字花园至网络。
