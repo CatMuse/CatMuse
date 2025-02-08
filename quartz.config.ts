@@ -9,6 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "🐱 CatMuse",
+    pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -16,15 +17,15 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "catmuse.me",
-    ignorePatterns: ["private", "templates"],
+    ignorePatterns: ["private", "Extras/Templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "DM Serif Display",
-        body: "Bricolage Grotesque",
+        header: "Noto Serif Simplified Chinese",
+        body: "Noto Sans Simplified Chinese",
         code: "JetBrains Mono",
       },
       colors: {
@@ -59,10 +60,16 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
       }),
-      Plugin.Poetry(),
+      // Plugin.Poetry(),
       Plugin.Latex({ renderEngine: "katex" }),
-      Plugin.SyntaxHighlighting(),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false, parseTags: false, mermaid: false }),
+      Plugin.SyntaxHighlighting({
+        theme: {
+          light: "github-light",
+          dark: "github-dark",
+        },
+        keepBackground: false,
+      }),
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "absolute", lazyLoad: true }),
