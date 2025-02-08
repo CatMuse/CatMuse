@@ -46,6 +46,7 @@ export const defaultContentPageLayout: PageLayout = {
         linkToMore: "thoughts/" as SimpleSlug,
       }),
     ),
+    Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [
     Component.Graph({
@@ -56,7 +57,7 @@ export const defaultContentPageLayout: PageLayout = {
         showTags: false,
       },
     }),
-    Component.DesktopOnly(Component.TableOfContents()),
+    // Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
 }

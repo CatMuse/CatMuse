@@ -4,8 +4,16 @@ date: 2025-02-08
 tags:
   - seed
 draft: false
-description: 这里是描述内容
+description: HiNote MOC
 aliases:
 ---
-这里是我第一个独立“研发”的一个项目，因为我完全不懂代码。
+HiNote 这是我和 AI 共同研发的第一个项目。这是一款 Obsidian 插件，可以帮你在笔记中提取高亮文本，并增加批注的功能。
+
+### 相关笔记
+
+[[HiNote Releases Log]]
+
+
+
+
 
