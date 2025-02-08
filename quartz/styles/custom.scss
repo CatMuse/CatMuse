@@ -101,7 +101,7 @@ hr {
 }
 
 pre.poetry {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: biro_script_standardRgus;
   border: none;
   padding: 0;
@@ -111,6 +111,7 @@ pre.poetry {
 .meta,
 .content-meta {
   font-family: biro_script_standardRgus, var(--bodyFont);
+  font-size: 1.25rem;
 }
 
 audio::-webkit-media-controls-panel {
