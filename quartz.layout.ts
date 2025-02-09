@@ -6,7 +6,21 @@ import { SimpleSlug } from "./quartz/util/path"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        // from data-repo
+        repo: 'CatMuse/CatMuse',
+        // from data-repo-id
+        repoId: 'R_kgDON1wDZg',
+        // from data-category
+        category: 'Announcements',
+        // from data-category-id
+        categoryId: 'DIC_kwDON1wDZs4Cmywd',
+      }
+    }),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/CatMuse",
@@ -34,16 +48,16 @@ export const defaultContentPageLayout: PageLayout = {
         title: "Recent Writing",
         limit: 4,
         filter: (f) =>
-          f.slug!.startsWith("posts/") && f.slug! !== "posts/index" && !f.frontmatter?.noindex,
-        linkToMore: "posts/" as SimpleSlug,
+          f.slug!.startsWith("Posts/") && f.slug! !== "Posts/index" && !f.frontmatter?.noindex,
+        linkToMore: "Posts/" as SimpleSlug,
       }),
     ),
     Component.DesktopOnly(
       Component.RecentNotes({
         title: "Recent Notes",
         limit: 2,
-        filter: (f) => f.slug!.startsWith("thoughts/"),
-        linkToMore: "thoughts/" as SimpleSlug,
+        filter: (f) => f.slug!.startsWith("Thoughts/"),
+        linkToMore: "Thoughts/" as SimpleSlug,
       }),
     ),
     Component.DesktopOnly(Component.TableOfContents()),
