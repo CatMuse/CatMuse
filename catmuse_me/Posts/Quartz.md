@@ -2,7 +2,7 @@
 title: Quartz
 date: 2025-02-08
 tags:
-  - seed
+  - Evergreen
 draft: false
 description: 
 aliases: 

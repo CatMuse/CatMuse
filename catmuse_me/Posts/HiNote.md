@@ -15,6 +15,7 @@ HiNote is a Obsidian plugin that I developed together with AI. It can help you e
 ## References
 
 [[HiNote Releases Log]]
+[[HiNote Feature Introduction]]
 
 
 

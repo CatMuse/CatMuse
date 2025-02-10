@@ -1,3 +1,18 @@
+---
+title: HiNote Releases Log
+tags:
+  - Evergreen
+  - Dev
+comments: true
+---
+## 0.2.9
+
+- 增加重命名监听，更改文件名称或文件路径可正确匹配批注内容
+
+- Add Rename listener to correctly match annotation content when changing file name or file path.
+
+---
+
 ## 0.2.8
 
 - 修复 Copilot 模型设置展示冲突问题；
@@ -5,12 +20,12 @@
 - 增加排除文件和路径设置；
 - 导出为新笔记可根据 BlockID 创建链接；
 
----
-
 - Fixed the display conflict issue in Copilot model settings;
 - Added a feature to double-click the title icon in the main view state to jump to a specified file and highlight the position;
 - Added settings to exclude files and paths;
 - Exporting as a new note can create links based on BlockID.
+
+---
 
 ## 0.2.7
 
@@ -18,8 +33,6 @@
 - 增加导出文件夹设置
 - 增加更多高亮格式识别
 - 修复导出为笔记的 Callout 格式问题
-
----
 
 - Added domestic AI service Deepseek
 - Added export folder settings
