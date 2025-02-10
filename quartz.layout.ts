@@ -18,7 +18,7 @@ export const sharedPageComponents: SharedLayout = {
         category: 'Announcements',
         // from data-category-id
         categoryId: 'DIC_kwDON1wDZs4Cmywd',
-        themeUrl: "https://catmuse.me/static/giscus", // corresponds to quartz/static/giscus/
+        themeUrl: "https://www.catmuse.me/static/giscus", // corresponds to quartz/static/giscus/
         lightTheme: "light", // corresponds to light-theme.css in quartz/static/giscus/
         darkTheme: "dark", // corresponds to dark-theme.css quartz/static/giscus/
         mapping: "pathname",
