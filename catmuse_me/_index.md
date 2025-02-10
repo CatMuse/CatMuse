@@ -1,6 +1,8 @@
 ---
 title: Welcome to CatMuse
-tags: []
+tags:
+  - Evergreen
+comments: false
 ---
 <img src="/Extras/Attachments/banner.svg" width="100%" height="100%" >
 
@@ -13,6 +15,4 @@ Welcome to CatMuse's digital garden！
 我刚刚开始搭建私人的小园子，旨在为我自己营造的一个思考的环境，我希望它是安静、好奇、有趣且时常慵懒的。
 
 这里会不定期更新，分享一些有趣的东西，如果能有一点帮助，那就再好也不过了。祝你逛得开心~
-
----
 

@@ -5,7 +5,8 @@ tags:
   - seed
 draft: false
 description: 
-aliases:
+aliases: 
+comments: true
 ---
 Quartz 是一个静态站点站点生成器，可将 Markdown 内容转换为功能齐全的 HTML 网站。成千上万的学生，开发人员和教师已经在使用 Quartz将个人笔记，网站和数字花园发布到网络上。
 
