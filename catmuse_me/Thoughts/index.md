@@ -1,4 +1,4 @@
 ---
-title: All Posts
+title: All Thoughts
 comments: false
 ---
