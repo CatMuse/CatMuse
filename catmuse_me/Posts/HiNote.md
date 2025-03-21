@@ -16,8 +16,17 @@ HiNote is a Obsidian plugin that I developed together with AI. It can help you e
 
 - [[HiNote Releases Log]]
 - [[HiNote Feature Introduction]]
+- [[HiNote Pro - HiCard]]
 
+## All Feature
 
-
-
-
+| 功能名称                    | 功能说明                         |
+| ----------------------- | ---------------------------- |
+| 高亮提取                    | 默认自动获取 MD 文档中的高亮内容，可自定义正则表达式 |
+| 添加批注                    |                              |
+| AI 生成批注                 |                              |
+| 导出为图片                   |                              |
+| 导出为笔记                   |                              |
+| 主视图                     |                              |
+| 全部高亮                    |                              |
+| [[HiNote Pro - HiCard]] |                              |

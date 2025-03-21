@@ -10,7 +10,7 @@ comments: false
 Welcome to CatMuse's digital garden！
 ```
 
-欢迎来到一只猫的 [[数字花园]] ，这是一个专为我自己营造的思考与探索空间。
+欢迎来到一只猫的 [[Digital Garden]] ，这是一个专为我自己营造的思考与探索空间。
 
 **好奇不止九条命，求索喵思启新境。** 这是由 AI 生成的 Slogan，也是数字花园的精髓：探索、好奇、创新与思考。
 

@@ -90,6 +90,66 @@ export function googleFontHref(theme: Theme) {
   return `https://fonts.googleapis.com/css2?family=${code}&family=${header}:wght@400;700&family=${body}:ital,wght@0,350;0,600;1,400;1,600&display=swap`
 }
 
+export function googleFontSubsetHref(theme: Theme, title: string) {
+  // Create a subset of the font for the page title
+  // This is used to optimize font loading for the page title
+  const titleFont = theme.typography.title || theme.typography.header
+  const formattedFont = formatFontSpecification("title", titleFont)
+  
+  // Encode the title for use in the URL
+  const encodedTitle = encodeURIComponent(title)
+  
+  return `https://fonts.googleapis.com/css2?family=${formattedFont}&text=${encodedTitle}&display=swap`
+}
+
+interface FontFile {
+  url: string
+  filename: string
+  extension: string
+}
+
+export async function processGoogleFonts(
+  stylesheet: string,
+  baseUrl: string
+): Promise<{ processedStylesheet: string; fontFiles: FontFile[] }> {
+  const fontFiles: FontFile[] = []
+  
+  // Extract font URLs from the stylesheet
+  const fontUrlRegex = /url\((.+?)\)/g
+  let match
+  let processedStylesheet = stylesheet
+  
+  while ((match = fontUrlRegex.exec(stylesheet)) !== null) {
+    const fontUrl = match[1].replace(/["']/g, '')
+    
+    // Skip data URLs
+    if (fontUrl.startsWith('data:')) continue
+    
+    // Generate a filename for the font file
+    const urlParts = fontUrl.split('/')
+    const filename = urlParts[urlParts.length - 1]
+    
+    // Determine the file extension
+    const extension = filename.split('.').pop() || 'woff2'
+    
+    // Add the font file to the list
+    fontFiles.push({
+      url: fontUrl,
+      filename,
+      extension
+    })
+    
+    // Replace the URL in the stylesheet
+    const newUrl = `/static/fonts/${filename}`
+    processedStylesheet = processedStylesheet.replace(
+      fontUrl,
+      `${baseUrl}${newUrl}`
+    )
+  }
+  
+  return { processedStylesheet, fontFiles }
+}
+
 export function joinStyles(theme: Theme, ...stylesheet: string[]) {
   return `
 ${stylesheet.join("\n\n")}
