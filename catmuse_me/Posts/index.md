@@ -1,4 +1,0 @@
----
-title: All Posts
-comments: false
----
