@@ -2,7 +2,7 @@
   "name": "@jackyzha0/quartz",
   "description": "🌱 publish your digital garden and notes as a website",
   "private": true,
-  "version": "4.5.0",
+  "version": "4.5.1",
   "type": "module",
   "author": "jackyzha0 <j.zhao2k19@gmail.com>",
   "license": "MIT",
@@ -20,8 +20,8 @@
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
   },
   "engines": {
-    "npm": ">=9.3.1",
-    "node": ">=20"
+    "npm": ">=10.9.2",
+    "node": ">=22"
   },
   "keywords": [
     "site generator",
@@ -40,9 +40,9 @@
     "@myriaddreamin/rehype-typst": "^0.6.0",
     "@napi-rs/simple-git": "0.1.19",
     "@tweenjs/tween.js": "^25.0.0",
+    "@webgpu/types": "^0.1.61",
     "ansi-truncate": "^1.2.0",
     "async-mutex": "^0.5.0",
-    "chalk": "^5.4.1",
     "chokidar": "^4.0.3",
     "cli-spinner": "^0.2.10",
     "d3": "^7.9.0",

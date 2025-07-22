@@ -108,6 +108,13 @@ interface FontFile {
   extension: string
 }
 
+const fontMimeMap: Record<string, string> = {
+  truetype: "ttf",
+  woff: "woff",
+  woff2: "woff2",
+  opentype: "otf",
+}
+
 export async function processGoogleFonts(
   stylesheet: string,
   baseUrl: string
