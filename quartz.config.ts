@@ -17,9 +17,9 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "catmuse.me",
-    ignorePatterns: ["private", "Templates", ".obsidian"],
+    ignorePatterns: ["private", "Extras/Templates", ".obsidian"],
     defaultDateType: "created",
-    generateSocialImages: false,
+    // generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
