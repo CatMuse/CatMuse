@@ -39,7 +39,9 @@ li,
 ol,
 ul,
 .katex,
-.math {
+.math,
+.typst-doc,
+.typst-doc * {
   color: var(--darkgray);
   fill: var(--darkgray);
   overflow-wrap: break-word;
@@ -223,7 +225,7 @@ a {
     }
 
     & .sidebar {
-      gap: 2rem;
+      gap: 1.2rem;
       top: 0;
       box-sizing: border-box;
       padding: $topSpacing 2rem 2rem 2rem;
