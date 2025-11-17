@@ -3,9 +3,10 @@ title: Obsidian Manifesto
 date: 2025-02-11
 tags:
   - Seed
-draft: false
-description: 
-aliases: 
+  - "#Obsidian"
+publish: true
+description:
+aliases:
 comments: false
 ---
 Our guiding principles are set in stone.

@@ -3,8 +3,8 @@ title: "{{title}}"
 date: "{{date}}"
 tags:
   - Seed
-draft: true
-description: 
-aliases: 
+publish: false
+description:
+aliases:
 comments: false
 ---
