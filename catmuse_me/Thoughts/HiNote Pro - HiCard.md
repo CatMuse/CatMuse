@@ -1,2 +1,0 @@
-![[hicard-screenshot.png]]
-
