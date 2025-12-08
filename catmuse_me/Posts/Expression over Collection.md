@@ -3,7 +3,6 @@ title: Expression over Collection
 date: 2025-11-17
 tags:
   - Seed
-  - Obsidian
 publish: true
 description:
 aliases:
@@ -32,3 +31,5 @@ You should want to create your own ideas, not just for the world, but for your f
 These days, I use an app called Obsidian to organize my thoughts, but it’s a delusion to think the app is the point. The tool will eventually become obsolete. It’s the imperfect but real sentences I write in my own words that are designed to last and shape me. Who knows if anyone will want to read them besides me, but _future me_ is an audience worthy of the effort.
 
 They might be simple, they might be naive, but they are mine.
+
+[[Obsidian Manifesto]]

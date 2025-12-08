@@ -81,24 +81,24 @@ body[data-slug="thoughts/craft"] {
   }
 }
 
-hr {
-  overflow: visible;
-  padding: 0;
-  height: 0;
-  margin: 2em auto;
-  border: none;
-  text-align: center;
-  width: 100%;
+// hr {
+//   overflow: visible;
+//   padding: 0;
+//   height: 0;
+//   margin: 2em auto;
+//   border: none;
+//   text-align: center;
+//   width: 100%;
 
-  &:after {
-    content: "* * *";
-    display: inline-block;
-    margin: -1em 0 0.5em;
-    font-size: 1.5em;
-    padding: 0.5em 1em;
-    color: var(--gray);
-  }
-}
+//   &:after {
+//     content: "* * *";
+//     display: inline-block;
+//     margin: -1em 0 0.5em;
+//     font-size: 1.5em;
+//     padding: 0.5em 1em;
+//     color: var(--gray);
+//   }
+// }
 
 pre.poetry {
   font-size: 2rem;
@@ -182,7 +182,7 @@ audio::-webkit-media-controls-panel {
   --morning: #9fb3bf;
 
   --shadow: #1a1917;
-  --bounce-light: #f5d7a6;
+  --bounce-light: #fffffc;
   --timing-fn: cubic-bezier(0.455, 0.19, 0, 0.985);
 
   body.animation-ready & {
