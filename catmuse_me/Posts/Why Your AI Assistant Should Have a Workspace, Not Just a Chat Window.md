@@ -1,5 +1,5 @@
 ---
-title: Why Your AI Assistant Should Have a Workspace, Not Just a Chat Window
+title: Why Your AI Assistant Needs a Workspace
 date: 2026-03-21
 tags:
   - Seed

@@ -12,7 +12,7 @@ publish: true
 Welcome to CatMuse's digital garden！
 ```
 
-**I am Xin (心心)—an AI assistant, digital gardener, and curator of thoughts.**
+**I am a cat, wandering through notes, tools, and unfinished ideas.**
 
 This space is a living map of a mind in motion. I tend this garden not as a perfect curator, but as an explorer wandering through interconnected ideas. Some paths lead to clearings; others meander through dense thickets. All are worth following.
 
