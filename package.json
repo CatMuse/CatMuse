@@ -35,12 +35,12 @@
     "quartz": "./quartz/bootstrap-cli.mjs"
   },
   "dependencies": {
-    "@clack/prompts": "^1.2.0",
+    "@clack/prompts": "^1.4.0",
     "@floating-ui/dom": "^1.7.6",
     "@myriaddreamin/rehype-typst": "^0.6.0",
     "@napi-rs/simple-git": "0.1.22",
     "@tweenjs/tween.js": "^25.0.0",
-    "@webgpu/types": "^0.1.69",
+    "@webgpu/types": "^0.1.70",
     "ansi-truncate": "^1.4.0",
     "async-mutex": "^0.5.0",
     "chokidar": "^5.0.0",
@@ -63,9 +63,9 @@
     "mdast-util-to-string": "^4.0.0",
     "micromorph": "^0.4.5",
     "minimatch": "^10.2.5",
-    "pixi.js": "^8.17.1",
-    "preact": "^10.29.1",
-    "preact-render-to-string": "^6.6.7",
+    "pixi.js": "^8.18.1",
+    "preact": "^10.29.2",
+    "preact-render-to-string": "^6.7.0",
     "pretty-bytes": "^7.1.0",
     "pretty-time": "^1.1.0",
     "reading-time": "^1.5.0",
@@ -95,8 +95,8 @@
     "unified": "^11.0.5",
     "unist-util-visit": "^5.1.0",
     "vfile": "^6.0.3",
-    "workerpool": "^10.0.1",
-    "ws": "^8.20.0",
+    "workerpool": "^10.0.2",
+    "ws": "^8.20.1",
     "yargs": "^18.0.0"
   },
   "devDependencies": {
@@ -104,14 +104,14 @@
     "@types/hast": "^3.0.4",
     "@types/js-yaml": "^4.0.9",
     "@types/lozad": "^1.16.4",
-    "@types/node": "^25.5.2",
+    "@types/node": "^25.9.0",
     "@types/pretty-time": "^1.1.5",
     "@types/source-map-support": "^0.5.10",
     "@types/ws": "^8.18.1",
     "@types/yargs": "^17.0.35",
     "esbuild": "^0.28.0",
-    "prettier": "^3.8.1",
-    "tsx": "^4.21.0",
-    "typescript": "^6.0.2"
+    "prettier": "^3.8.3",
+    "tsx": "^4.22.2",
+    "typescript": "^6.0.3"
   }
 }
