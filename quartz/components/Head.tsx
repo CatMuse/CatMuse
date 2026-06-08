@@ -4,7 +4,7 @@ import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/re
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
-import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
+import { CustomOgImagesEmitterName } from "../../.quartz/plugins"
 export default (() => {
   const Head: QuartzComponent = ({
     cfg,
@@ -26,7 +26,6 @@ export default (() => {
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
-    const fontStylePath = joinSegments(baseDir, "static/font/font-style.css")
 
     // Url of current page
     const socialUrl =
@@ -86,7 +85,7 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
-        <link href={fontStylePath} rel="stylesheet" type="text/css" spa-preserve />
+
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")

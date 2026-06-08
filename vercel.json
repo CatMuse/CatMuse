@@ -1,3 +1,75 @@
 {
-    "cleanUrls": true
-  }
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/tags/AI",
+      "destination": "/tags/ai",
+      "permanent": true
+    },
+    {
+      "source": "/tags/AI.html",
+      "destination": "/tags/ai",
+      "permanent": true
+    },
+    {
+      "source": "/tags/Dev",
+      "destination": "/tags/dev",
+      "permanent": true
+    },
+    {
+      "source": "/tags/Dev.html",
+      "destination": "/tags/dev",
+      "permanent": true
+    },
+    {
+      "source": "/tags/Evergreen",
+      "destination": "/tags/evergreen",
+      "permanent": true
+    },
+    {
+      "source": "/tags/Evergreen.html",
+      "destination": "/tags/evergreen",
+      "permanent": true
+    },
+    {
+      "source": "/tags/Knowledge",
+      "destination": "/tags/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/tags/Knowledge.html",
+      "destination": "/tags/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/tags/Knowledge-Management",
+      "destination": "/tags/knowledge-management",
+      "permanent": true
+    },
+    {
+      "source": "/tags/Knowledge-Management.html",
+      "destination": "/tags/knowledge-management",
+      "permanent": true
+    },
+    {
+      "source": "/tags/Obsidian",
+      "destination": "/tags/obsidian",
+      "permanent": true
+    },
+    {
+      "source": "/tags/Obsidian.html",
+      "destination": "/tags/obsidian",
+      "permanent": true
+    },
+    {
+      "source": "/tags/Seed",
+      "destination": "/tags/seed",
+      "permanent": true
+    },
+    {
+      "source": "/tags/Seed.html",
+      "destination": "/tags/seed",
+      "permanent": true
+    }
+  ]
+}
